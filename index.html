@@ -1,0 +1,207 @@
+<!DOCTYPE html>clea
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Foodie Delight</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<style>
+  .hero {
+    background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') center/cover no-repeat;
+    height: 80vh;
+    color: white;
+    
+  }
+  .hero .bi{
+    color: yellow;
+    font-size: larger;
+  }
+
+  .hero-overlay {
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .navbar-nav{
+    font-size: 20px;
+  }
+  .navbar-brand{
+    font-size: 18px;
+  }
+
+  .navbar-brand .bi{
+   color: yellow;
+   font-size:larger ;   
+    
+  }
+  #menu .bi{
+  color: yellow;
+  }
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar p-4 navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#"><span><b>Fresh Bite<i class="bi bi-fire"></i></b></span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-overlay">
+    <div>
+      <h1 class="display-4 fw-bold">Delicious Bites <i class="bi bi-emoji-smile-fill"></i></h1>
+      <p class="lead">Fresh! Hot! Tasty!</p>
+      <a href="#menu" class="btn btn-warning btn-lg">Order Now</a>
+    <div class="cart"><i class="bi bi-cart4 "></i></div>  
+    </div>
+  </div>
+</section>
+
+<!-- Menu -->
+
+<section id="menu" class="container my-5">
+  <h2 class="text-center mb-5">Our Menu  <i class="bi bi-menu-up"></i></h2>
+  <div class="row g-4">
+
+    <!-- Menu Item 1 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="https://i.pinimg.com/1200x/f6/bb/5a/f6bb5a302be27d6b6a1a6d37675ec919.jpg" class="card-img-top" alt="Cheese Burger">
+        <div class="card-body text-center">
+          <h5 class="card-title">Cheese Burger</h5>
+          <p class="card-text">₹279</p>
+          <a href="#" class="btn btn-outline-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu Item 2 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="https://i.pinimg.com/736x/2b/57/b6/2b57b6eb9e63424bee6d27a1cef164c7.jpg" class="card-img-top" alt=" italian Pizza">
+        <div class="card-body text-center">
+          <h5 class="card-title">Italian Pizza</h5>
+          <p class="card-text">₹399</p>
+          <a href="#" class="btn btn-outline-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu Item 3 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="https://i.pinimg.com/736x/54/d6/a9/54d6a9e3bae82c5cc7601c602b186b06.jpg" class="card-img-top" alt="french fries">
+        <div class="card-body text-center">
+          <h5 class="card-title">French Fries</h5>
+          <p class="card-text">₹199</p>
+          <a href="#" class="btn btn-outline-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu Item 4 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="https://i.pinimg.com/1200x/a2/bc/22/a2bc227bb8b7bd88f54a1de36e267716.jpg" class="card-img-top" alt="chicken wings">
+        <div class="card-body text-center">
+          <h5 class="card-title">Chicken Wings</h5>
+          <p class="card-text">₹429</p>
+          <a href="#" class="btn btn-outline-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu Item 5 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="https://i.pinimg.com/736x/59/20/f6/5920f6587feebee55c62f97480c86d07.jpg" class="card-img-top" alt="Salad Bowl">
+        <div class="card-body text-center">
+          <h5 class="card-title">Salad Bowl</h5>
+          <p class="card-text">₹499</p>
+          <a href="#" class="btn btn-outline-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu Item 6 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="https://i.pinimg.com/736x/03/5c/6c/035c6c79a00138b2dfabb8c9802e22d5.jpg" class="card-img-top" alt="Grilled Chicken">
+        <div class="card-body text-center">
+          <h5 class="card-title">Grilled Chicken</h5>
+          <p class="card-text">₹429</p>
+          <a href="#" class="btn btn-outline-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- About -->
+
+<section id="about" class="bg-light py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      
+     
+      <div class="col-md-6 mb-4 mb-md-0 ">
+        <img width="50%" src="https://i.pinimg.com/736x/e3/d1/42/e3d1429b76a0cbcd0fad04f10c1555ee.jpg" class="img-fluid rounded shadow" alt="About Us">
+      </div>
+      
+     
+      <div class="col-md-6">
+        <h2 class="mb-3">About Us</h2>
+        <p class="lead">
+          At <strong>Foodie Delight</strong>, we bring you the freshest and tastiest meals prepared with love. Our chefs use only high-quality ingredients to ensure every bite is flavorful and satisfying.
+        </p>
+        
+        <a href="#menu" class="btn btn-warning mt-3">Explore Our Menu</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="container my-5">
+  <h2 class="text-center mb-4">Contact Us</h2>
+  <form class="col-md-6 mx-auto">
+    <div class="mb-3">
+      <input type="text" class="form-control" placeholder="Your Name">
+    </div>
+    <div class="mb-3">
+      <input type="email" class="form-control" placeholder="Your Email">
+    </div>
+    <div class="mb-3">
+      <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+    </div>
+    <button class="btn btn-warning w-100">Send Message</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3">
+  <p class="mb-0">&copy;2026 Foodie Delight. All Rights Reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
